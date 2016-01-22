@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>beer'd | code challenge</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="css/fontfaces.css" media="screen">
+    <link rel="stylesheet" href="css/main.css" media="screen">
+  </head>
+  <body>
+        <!-- JUMBOTRON-->
+        <div class="jumbotron">
+
+        <!-- NAVBAR -->
+            <div class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                        <!-- LOGO -->
+                        <a class="navbar-brand hidden-xs" href="#">
+                            <img src="assets/logo.png" alt="Brand" />
+                        </a>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Beers</a></li>
+                            <li><a href="#">Breweries</a></li>
+                            <li><a href="#">Submit a Find</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+        <!-- END OF NAVBAR -->
+
+                <!-- BEER BACKGROUND -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                    <p class="lead">Discovering beer just got easier.</p>
+                    <!-- LEARN MORE BUTTON -->
+                    <a class="btn btn-info btn-lg beer-btn" id="jumbo-button" href="#">Learn More</a>
+                    </div>
+                </div>
+                </div>
+        </div>
+
+        <!-- PRIMARY CONTENT-->
+		<div class="container primary-content">
+	        <div class="row">
+                <div class="col-sm-5">
+                    <h2>You're a couple moments away from getting a beer.</h2>
+                    <p>Let's start with some basics. By letting us know a bit about your tastebuds, we'll be able to
+                        start gathering the information we need in order to get you a beer. We may even be able to
+                        introduce you to something you've never tried before but will love</p>
+                    <p>We're a company who likes beer. We help beer lovers like you find your favorite beers and explore
+                        new brews, without the hassle and wait times of your local pub. And since we sell beer directly,
+                        we also save you money.</p>
+                </div>
+                <div class="col-sm-7">
+                    <!-- FORM-->
+                    <form>
+                        <div class="form-group">
+                            <label for="inputText">What's your favorite beer?</label>
+                            <input type="text" class="form-control" id="inputText" placeholder="Jane Doe">
+                        </div>
+                        <div class="form-group">
+                            <label>How many times a week do you drink beer?</label>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option>Select an option</option>
+                                <option>Every day</option>
+                                <option>4-6 days</option>
+                                <option>1-3 days</option>
+                            </select>
+                        </div>
+                    </form>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <a class="btn btn-warning btn-lg" href="#">Get Advice</a>
+                            </div>
+                            <div class="col-sm-3">
+                                <a class="btn btn-info btn-lg" href="#">Get a Beer</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+		</div>
+
+        <!-- SECONDARY CONTENT-->
+        <div class="secondary-content text-center">
+            <div class="container">
+                 <h1>What makes us different?</h1>
+                 <h2>We're focused on the needs of beer lovers.</h2>
+
+                <!-- col-4 WITH ICONS -->
+                <div class="row">
+                        <div class="col-sm-3">
+                            <h3>Direct to You</h3>
+                            <img class="icons" src="./assets/icons/icon-direct-to-you.png" alt="Direct to You" />
+                                 <p class="hidden-xs">So we can dramatically lower the cost of your beer without
+                                     compromising quality.</p>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <h3>Pub-less</h3>
+                            <img class="icons" src="./assets/icons/icon-pub-less.png" alt="Pub-less" />
+                                <p class="hidden-xs">We're a 21st century company designed to support your digital mobile
+                                    lifestyle.</p>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <h3>Peace of Mind</h3>
+                            <img class="icons" src="./assets/icons/icon-peace-of-mind.png" alt="Peace of Mind" />
+                                <p class="hidden-xs">We've partnered with the best micro-breweries with decades of
+                                    experience.</p>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <h3>Expert Advice</h3>
+                            <img class="icons" src="./assets/icons/icon-expert-advice.png" alt="Expert Advice" />
+                                <p class="hidden-xs">We know beer best. We understand how to match you with the right beer
+                                    at the right price.</p>
+                        </div>
+                    </div>
+
+                    <!-- Learn More Button -->
+                    <div class="learn-more">
+                        <a class="btn btn-warning btn-lg" href="#">Learn More</a>
+                    </div>
+            </div>
+        </div>
+
+      <!-- FOOTER WITH ADDRESS & GRAPHIC -->
+      <div class="footer">
+         <div class="container">
+             <div class="row">
+                 <div class="col-xs-12 col-sm-4">
+                     <address>12345 Fremont Ave., Suite 1001,</br>
+                         Seattle WA 98100</address>
+                     <p class="text-muted">Copyright &copy; 2013 Beer'd, Inc.</p>
+                 </div>
+                 <div class="col-sm-6"></div>
+                 <div class="hidden-xs col-sm-2">
+                     <img src="assets/footer-graphic.png" alt="Footer Graphic" />
+                 </div>
+             </div>
+         </div>
+      </div>
+    <script src="http://code.jquery.com/jquery.js"></script> 
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
